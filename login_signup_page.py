@@ -9,7 +9,7 @@ if not firebase_admin._apps:
 
 db = firestore.client()  
 
-FIREBASE_WEB_API_KEY = "AIzaSyA3z-3qHKVeHcFfkCq7px1T7boWyzuK1gI"
+FIREBASE_WEB_API_KEY = "Paste Your WEB API Here"
 
 def verify_password(email, password):
     url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={FIREBASE_WEB_API_KEY}"
